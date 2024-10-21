@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Test</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a class="logolink" href="http://www.tenerife.es/" target="_blank">
+                <img src="img/logo.png" alt="Logo" />
+            </a>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#link1" target="_blank">SENDEROS</a></li>
+            <li><a href="#link1" target="_blank">CIRCULACION</a></li>
+            <li><a href="#link1" target="_blank">BARRANCO</a></li>
+            <li><a href="#link1" target="_blank">ESCALADA</a></li>
+            <li><a href="#link1" target="_blank">CAMPING</a></li>
+            <li><a href="#link1" target="_blank">GRUPOS</a></li>
+            <li><a href="#link1" target="_blank">RESERVAS</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            &#9776; <!-- Hamburger icon -->
+        </div>
+    </nav>
+    <section class="container">
+        <h2 class="reservation-label">Fecha de Reserva</h2>
+        <h4 class="h4-container">Ficha de actividad <a href="https://centralreservas.tenerife.es/activitydocument/30/content">pdf</a></h4>
+        <div class="calendar">
+            <header>
+                <h3></h3>
+                <nav>
+                    <button id="prev"></button>
+                    <button id="next"></button>
+                </nav>
+            </header>
+            <section>
+                <ul class="days">
+                    <li>Dom</li>
+                    <li>Lun</li>
+                    <li>Mar</li>
+                    <li>Mié</li>
+                    <li>Jue</li>
+                    <li>Vie</li>
+                    <li>Sáb</li>
+                </ul>
+                <ul class="dates"></ul>
+            </section>
+        </div>
+        <div class="selection" id="selection" style="display: none;">
+            <input type="number" id="num-persons" min="1" max="15" placeholder="Número de personas" required>
+            <button id="next-step" class="next-step-button" disabled>Siguiente Paso</button>
+        </div>
+    </section>
+    
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="caption">
+                <h4>Contactar</h4>
+                <p>
+                    Dirección: Cabildo de Tenerife,<br>
+                    Plaza de España. 1,<br>
+                    38003 Santa Cruz de Tenerife.<br>
+                    Teléfono: 901 501 901 / 922 239 500
+                </p>
+            </div>
+            <div class="caption">
+                <h4>Servicios de la sede</h4>
+                <ul class="links">
+                    <li><a href="#">Anuncios</a></li>
+                    <li><a href="#">Verificación de documentos</a></li>
+                    <li><a href="#">Asesoría electrónica</a></li>
+                    <li><a href="#">Verificación de certificados</a></li>
+                    <li><a href="#">Fecha y hora</a></li>
+                </ul>
+            </div>
+            <div class="caption">
+                <h4>Enlaces de interés</h4>
+                <ul class="links">
+                    <li><a href="#">Portal</a></li>
+                    <li><a href="#">B.O.P.</a></li>
+                    <li><a href="#">Empleo</a></li>
+                    <li><a href="#">Contratante</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="socials">
+            <div class="socials-text">Redes Sociales</div>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="img/facebook-app-round-white-icon.webp" alt="Facebook">
+            </a>
+            <a href="https://www.x.com" target="_blank">
+                <img src="img/X_logo_2023_(white).png" alt="Twitter">
+            </a>
+        </div>
+
+        <div class="copyright">
+            Copyright ©2014 Cabildo de Tenerife
+        </div>
+    </footer>
+
+    <script src="main2.js"></script>
+</body>
+</html>
